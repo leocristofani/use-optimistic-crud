@@ -1,0 +1,24 @@
+{
+  "name": "use-optimistic-crud",
+  "version": "1.0.0",
+  "description": "A custom React hook that performs CRUD operations optimistically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocristofani/use-optimistic-crud.git"
+  },
+  "keywords": [
+    "Custom React Hook",
+    "Optimistic UI",
+    "Optimistic CRUD"
+  ],
+  "author": "Leonardo Cristofani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leocristofani/use-optimistic-crud/issues"
+  },
+  "homepage": "https://github.com/leocristofani/use-optimistic-crud#readme"
+}
