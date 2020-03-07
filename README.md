@@ -1,6 +1,6 @@
 # useOptimisticCRUD
 
-A custom React hook that performs CRUD operations optimistically
+A custom React hook that performs CRUD operations optimistically. Meaning, it does NOT wait for the server to respond in order to update local state, giving end users perception of immediate change.
 
 ### Install
 
@@ -8,9 +8,11 @@ A custom React hook that performs CRUD operations optimistically
 
 ### How to use it
 
-```
-const {users, error, loading, create, update, delete} = useOptimisticCRUD(
+```js
+const { users, error, loading, create, update, delete } = useOptimisticCRUD(
   "https://baseurl.com/api/users",
-  { /* query params go here */ }
+  {
+    /* query params go here */
+  }
 );
 ```
